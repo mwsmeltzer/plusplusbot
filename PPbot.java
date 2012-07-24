@@ -17,8 +17,6 @@ public class PPbot extends PircBot
     final String[][] triggers = {
 //  {string nick,       bool exact, string match,   string variable,                 int delta}
     {"danyell",         "false",    "hah",          "danyell.says.hah",              "1"},
-    {"BungoDanderfluff","true",     "meow",         "meow",                          "1"},
-    {"xx3nvyxx",        "true",     "meow",         "meow",                          "1"},
     {"jtb",             "false",    "show",         "jonthebastard.mentions.a.show", "1"},
     {"jonthebastard",   "false",    "show",         "jonthebastard.mentions.a.show", "1"},
     {"jtb",             "false",    "shows",        "jonthebastard.mentions.a.show", "1"},
